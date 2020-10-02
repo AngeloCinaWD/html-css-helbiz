@@ -6,3 +6,10 @@
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
 }
+
+[class*="col-"] {
+  background-color: red;
+  height: 500px;
+  font-weight: 200 ;
+
+}
