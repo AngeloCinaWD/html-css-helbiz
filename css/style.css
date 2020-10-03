@@ -181,6 +181,7 @@ header {
   background-repeat: no-repeat;
   background-size: auto 70%;
   padding-top: 100px;
+  margin: 40px 0;
 }
 
 #centra-sez2 {
@@ -206,4 +207,70 @@ header {
   font-size: 10px;
   color: #21253d;
   padding-left: 5%;
+}
+
+/* sezione smart mobility */
+#smart {
+  background-image: url("../img/monopattinosfondo.jpg");
+  background-size: cover;
+  min-height: 436px;
+}
+
+#mobility1 {
+  padding: 25% 50px;
+}
+
+.testomobility {
+  text-align: center;
+}
+
+.testomobility p:nth-of-type(1) {
+  color: white;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.testomobility p:nth-of-type(2) {
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.testomobility a {
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#appcity {
+  margin-top: 20px;
+}
+
+#app, #city {
+  width: 97%;
+  padding-top: 50px;
+}
+
+#city {
+  float: right;
+}
+
+#mezzo {
+  width: 70%;
+  margin: auto;
+}
+
+#mezzo > img {
+  width: 100%;
+}
+
+#app {
+  background-image: linear-gradient(rgba(64,85,105), rgba(37,47,56));
+}
+
+#city {
+  background-image: url(../img/city.jpg);
+  background-size: cover;
+  padding-bottom: 80.5%;
 }
