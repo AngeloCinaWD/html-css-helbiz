@@ -8,12 +8,10 @@
 }
 
 /* regole di debug */
-[class*="col-"] {
-  background-color: lightgreen;
+/* [class*="col-"] {
   min-height: 100px;
   border: 1px solid black;
-
-}
+} */
 
 
 /* regole pagina */
@@ -22,35 +20,160 @@
   padding: 0 10%;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* header */
 
 header {
-  margin-top: 100px;
+  margin-top: 60px;
 }
 
-#nav-large {
+#nav-large, #nav-mobile {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 900;
+  background-color: white;
+}
+
+#navsx > a {
+  font-size: 30px;
+  color: black;
+}
+
+#navdx, #navsx, #navmobdx {
+  min-height: 60px;
+}
+
+#navdx {
+  text-align: right;
+  padding-top: 15px;
+}
+
+#navsx {
+  padding-top: 5px;
+}
+
+#navmobdx {
+  padding-top: 10px;
+}
+
+#navdx > a {
+  margin-right: 10px;
+  font-size: 10px;
+  color: #21253d;
 }
 
 #nav-mobile {
   display: none;
 }
 
-#jumbo {
-  padding-top: 50px;
-  min-height: 300px;
+#hamburger {
+  float: right;
+  cursor: pointer;
 }
 
-/* main */
+#hamburger div {
+  background-color: #21253d;
+  width: 35px;
+  height: 5px;
+  margin: 6px 0;
+}
+
+/* @media all and (max-width: 992px) {
+  #nav-mobile {
+    display: initial;
+  }
+
+  #nav-large {
+    display: none;
+  }
+} */
+
+/* jumbotron */
+
+#jumbo {
+  padding-top: 100px;
+  background-image: url("../img/jumbotron.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 343px;
+}
+
+#jumbetto {
+  text-align: center;
+}
+
+#jumbetto p:nth-of-type(1) {
+  color: white;
+  font-size: 35px;
+  font-weight: 600;
+  padding: 10px 0;
+}
+
+#jumbetto p:nth-of-type(2) {
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+#sxcol {
+  margin-top: 10px;
+  text-align: right;
+}
+
+#sxcol img, #dxcol img {
+  max-width: 15%;
+  max-height: auto;
+}
+
+#dxcol {
+  margin-top: 10px;
+  text-align: left;
+}
+
+#dxcol img {
+  max-width: 15%;
+  height: auto;
+}
+
+/* parte centrale */
 
 .centra-sez1 {
-  padding: 0 5%;
+  padding: 20px 5%;
 }
 
 #centra-sez2 {
   padding: 0 20%;
+}
+
+/* sezione prodotti */
+
+.grey {
+  width: 95%;
+  margin: auto;
+  text-align: center;
+  background-color: #fafafa;
+  padding-top: 20px;
+}
+
+.grey p:nth-of-type(1) {
+  font-size: 25px;
+}
+
+.grey p:nth-of-type(2) {
+  padding: 20px 0;
+}
+
+.greyprodotto {
+  width: 50%;
+  margin: auto;
+}
+
+.greyprodotto img {
+  max-width: 100%;
+  height: auto;
 }
