@@ -217,7 +217,7 @@ header {
 }
 
 #mobility1 {
-  padding: 25% 50px;
+  padding: 120px 50px;
 }
 
 .testomobility {
@@ -250,6 +250,8 @@ header {
 #app, #city {
   width: 97%;
   padding-top: 50px;
+  height: 400px;
+  overflow: hidden;
 }
 
 #city {
@@ -272,5 +274,42 @@ header {
 #city {
   background-image: url(../img/city.jpg);
   background-size: cover;
-  padding-bottom: 80.5%;
+}
+
+/* sezione family */
+#family {
+  background-image: url(../img/patchwork.jpg);
+  background-size: cover;
+  min-height: 404px;
+  padding-top: 100px;
+  margin-bottom: 20px;
+}
+
+#socialfamily {
+  width: 80%;
+  margin: auto;
+  background-color: white;
+  color: black;
+  font-size: 40px;
+  text-align: center;
+  padding: 40px 0;
+}
+
+#socialfamily i:nth-of-type(2) {
+  margin: 0 30px;
+}
+
+#socialfamily i:nth-of-type(3) {
+  margin-right: 30px;
+}
+
+/* footer */
+footer {
+  padding: 60px 0;
+  background-color: black;
+}
+
+#logo {
+  font-size: 15px;
+  color: white;
 }
