@@ -146,10 +146,6 @@ header {
   padding: 20px 5%;
 }
 
-#centra-sez2 {
-  padding: 0 20%;
-}
-
 /* sezione prodotti */
 
 .grey {
@@ -176,4 +172,38 @@ header {
 .greyprodotto img {
   max-width: 100%;
   height: auto;
+}
+
+/* sezione how-to */
+
+#how-to {
+  background-image: url(../img/anziano.jpg);
+  background-repeat: no-repeat;
+  background-size: auto 70%;
+  padding-top: 100px;
+}
+
+#centra-sez2 {
+  padding: 0 20%;
+}
+
+#iphone img {
+  width: 100%;
+  max-height: 748px;
+}
+
+#howtestoleft {
+  padding-top: 55%;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 600;
+  padding-left: 5%;
+}
+
+#howtestoright {
+  padding-top: 57%;
+  text-align: left;
+  font-size: 10px;
+  color: #21253d;
+  padding-left: 5%;
 }
